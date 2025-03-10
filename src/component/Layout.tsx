@@ -34,8 +34,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <h1 className="text-3xl font-bold">Data Viewer App</h1>
           </div>
           <div className="flex items-center ">
-            <img src="/src/assets/id-badge-solid.svg" alt="User" className="w-6 h-6" />
-            <img src="/src/assets/arrow-down-solid.svg" alt="Arrow Down" className="w-6 h-6" />
+            <img src="/id-badge-solid.svg" alt="User" className="w-6 h-6" />
+            <img src="/arrow-down-solid.svg" alt="Arrow Down" className="w-6 h-6" />
           </div>
 
         </header>
