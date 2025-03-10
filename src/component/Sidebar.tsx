@@ -37,7 +37,7 @@ const Sidebar: React.FC<SidebarProps> = ({ tabs, logoAlt }) => {
     <aside className="bg-gray-100 p-4 w-64 min-h-screen flex flex-col">
       {/* Logo Section */}
       <div className="flex items-center space-x-2 mb-6">
-        <img src="src/assets/Gsynergy-Logo.svg"alt={logoAlt} className="h-20 w-auto" />
+        <img src="/Gsynergy-Logo.svg"alt={logoAlt} className="h-20 w-auto" />
       </div>
 
       {/* Navigation Tabs */}
