@@ -83,6 +83,3 @@ To preview the production build:
 npm run preview
 ```
 
-### License
-This project is licensed under [Your Preferred License].
-
