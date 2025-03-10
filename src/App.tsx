@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Route path="/sku" element={<Layout><Sku /></Layout>} />
         <Route path="/planning" element={<Layout><Planning /></Layout>} />
         <Route path="/charts" element={<Layout><Charts /></Layout>} />
-        <Route path="/" element={<Navigate to="/Store" />} /> {/* Redirect to /Store */}
+        <Route path="/" element={<Navigate to="/store" />} /> {/* Redirect to /Store */}
       </Routes>
   );
 };
