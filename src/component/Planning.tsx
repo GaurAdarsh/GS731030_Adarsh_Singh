@@ -30,7 +30,6 @@ type SKU = {
 const GMCellRenderer = (params: ICellRendererParams) => {
   const value = parseFloat(params.value as string);
   let bgColor = "#ffffff"; // Default white
-  console.log("Colorvalue",value)
   if (!isNaN(value)) {
     if (value > 80) bgColor = "#4CAF50"; // Green
     else if (value > 50) bgColor = "#FFEB3B"; // Yellow

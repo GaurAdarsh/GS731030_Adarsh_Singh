@@ -5,7 +5,7 @@ interface SidebarState {
 }
 
 const initialState: SidebarState = {
-  activeTab: "/Store", // Initial active tab
+  activeTab: "/store", // Initial active tab
 };
 
 const sidebarSlice = createSlice({

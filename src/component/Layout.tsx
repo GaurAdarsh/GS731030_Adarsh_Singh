@@ -11,13 +11,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     const activeTab = useSelector((state: RootState) => state.sidebar.activeTab);
 
   const sidebarTabs = [
-    { label: "Store", to: "/Store",icon:"src/assets/store-solid.svg" },
-    { label: "SKU", to: "/sku",icon:"src/assets/shapes-solid.svg"},
-    { label: "Planning", to: "/planning",icon:"src/assets/chart-line-solid.svg" },
-    { label: "Charts", to: "/charts",icon:"src/assets/chart-column-solid.svg" },
+    { label: "Store", to: "/store",icon:"/store-solid.svg" },
+    { label: "SKU", to: "/sku",icon:"/shapes-solid.svg"},
+    { label: "Planning", to: "/planning",icon:"/chart-line-solid.svg" },
+    { label: "Charts", to: "/charts",icon:"/chart-column-solid.svg" },
   ];
   useEffect(()=>{
-  console.log("activetab",activeTab)
 },[activeTab])
   return (
     <div className="flex">

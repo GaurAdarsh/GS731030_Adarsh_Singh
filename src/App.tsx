@@ -12,7 +12,7 @@ import Planning from "./component/Planning";
 const App: React.FC = () => {
   return (
       <Routes>
-        <Route path="/Store" element={<Layout><Store /></Layout>} />
+        <Route path="/store" element={<Layout><Store /></Layout>} />
         <Route path="/sku" element={<Layout><Sku /></Layout>} />
         <Route path="/planning" element={<Layout><Planning /></Layout>} />
         <Route path="/charts" element={<Layout><Charts /></Layout>} />

@@ -11,7 +11,6 @@ const Charts: React.FC = () => {
     gmPercent: salesDollars ? (gmDollars / salesDollars) * 100 : 0
   }));
   
-  console.log(updatedData);
   return (
     <div className="p-6 bg-gray-900 text-white">
       <h2 className="text-2xl font-bold mb-4">Gross Margin</h2>
